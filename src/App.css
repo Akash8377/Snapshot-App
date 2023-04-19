@@ -1,0 +1,71 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  color: yellowgreen;
+  margin:auto;
+  text-align: center;
+}
+label {
+  margin-top:3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input.search {
+  
+  padding: 0.6em 1.5em;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+  margin-right: 1rem;
+}
+button.search {
+  font-size: 1.5rem;
+  background-color: #16e727;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.6em 2.5em;
+  cursor: pointer;
+  
+}
+
+button.search:hover {
+  background-color:rgb(128, 109, 0);
+}
+.main-changeName{
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+section {
+  
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #16e727;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.6em 2em;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.image-container {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+  justify-content: center;
+}
+.flickr-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
